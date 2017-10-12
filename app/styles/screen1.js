@@ -30,7 +30,7 @@ export default StyleSheet.create({
     marginTop: 30,
   },
 DateStyle123321: {
-         marginLeft:150,
+         marginLeft:100,
            fontSize: 14,
        
 

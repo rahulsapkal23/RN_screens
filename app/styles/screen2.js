@@ -105,9 +105,9 @@ export default StyleSheet.create({
         // borderColor: 'blue', borderWidth: 1,
         backgroundColor: 'transparent',
        
-        top:20,
-        height:60,
-        width:220
+        // top:20,
+        height:"40%",
+        width:"60%"
         
     },
       VWcontainer12: {
@@ -132,7 +132,7 @@ export default StyleSheet.create({
        flexDirection:"row",
         // borderColor: 'blue', borderWidth: 1,
         backgroundColor: 'white',
-        height:250,
+        height:450,
         width:"100%"
         
     },
@@ -204,8 +204,8 @@ export default StyleSheet.create({
     },
        SWcontainer123: {
            flexDirection:'row',
-           top:100,
-       height:100,
+        //    top:100,
+       height:"70%",
         width:"100%",
         // borderColor: 'black', borderWidth: 1,
        

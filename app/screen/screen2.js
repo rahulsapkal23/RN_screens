@@ -66,7 +66,23 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
+</View>
+
+ <View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
+  
+      <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
+      <Text style={styles.TextStyle9}> Discounts are available </Text>
+      <Text style={styles.TextStyle9}> this week </Text>
+      
+   </View> 
+ 
+      <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
+        style={styles.BtnContainer}>
+                                <Text style={styles.BtnTxt}>Package</Text>
+                            </TouchableOpacity>
+</View>
+ </View> 
 
       </ScrollView>
          <ScrollView tabLabel='Mon'style={styles.tabView}>
@@ -84,7 +100,22 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
+</View>
+<View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
+  
+      <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
+      <Text style={styles.TextStyle9}> Discounts are available </Text>
+      <Text style={styles.TextStyle9}> this week </Text>
+      
+   </View> 
+ 
+      <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
+        style={styles.BtnContainer}>
+                                <Text style={styles.BtnTxt}>Package</Text>
+                            </TouchableOpacity>
+</View>
+</View>
          </ScrollView>
           <ScrollView tabLabel='Tue' style={styles.tabView}>
             <View style={styles.VWcontainer311}>
@@ -101,7 +132,22 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
+</View>
+<View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
+  
+      <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
+      <Text style={styles.TextStyle9}> Discounts are available </Text>
+      <Text style={styles.TextStyle9}> this week </Text>
+      
+   </View> 
+ 
+      <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
+        style={styles.BtnContainer}>
+                                <Text style={styles.BtnTxt}>Package</Text>
+                            </TouchableOpacity>
+</View>
+</View>
           </ScrollView>
            <ScrollView tabLabel='Wed' style={styles.tabView}>
               <View style={styles.VWcontainer311}>
@@ -118,7 +164,22 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
+</View>
+<View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
+  
+      <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
+      <Text style={styles.TextStyle9}> Discounts are available </Text>
+      <Text style={styles.TextStyle9}> this week </Text>
+      
+   </View> 
+ 
+      <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
+        style={styles.BtnContainer}>
+                                <Text style={styles.BtnTxt}>Package</Text>
+                            </TouchableOpacity>
+</View>
+</View>
            </ScrollView>
              <ScrollView tabLabel='Thu' style={styles.tabView}>
                 <View style={styles.VWcontainer311}>
@@ -135,7 +196,22 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
+</View>
+<View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
+  
+      <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
+      <Text style={styles.TextStyle9}> Discounts are available </Text>
+      <Text style={styles.TextStyle9}> this week </Text>
+      
+   </View> 
+ 
+      <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
+        style={styles.BtnContainer}>
+                                <Text style={styles.BtnTxt}>Package</Text>
+                            </TouchableOpacity>
+</View>
+</View>
              </ScrollView>
              <ScrollView tabLabel='Fri' style={styles.tabView}>
                 <View style={styles.VWcontainer311}>
@@ -152,7 +228,22 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
+</View>
+<View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
+  
+      <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
+      <Text style={styles.TextStyle9}> Discounts are available </Text>
+      <Text style={styles.TextStyle9}> this week </Text>
+      
+   </View> 
+ 
+      <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
+        style={styles.BtnContainer}>
+                                <Text style={styles.BtnTxt}>Package</Text>
+                            </TouchableOpacity>
+</View>
+</View>
              </ScrollView>
               <ScrollView tabLabel='Sat' style={styles.tabView}>
                  <View style={styles.VWcontainer311}>
@@ -169,25 +260,27 @@ export default class screen2 extends Component {
 </View> 
 </View>  
 </View>
-</View></View>
-                </ScrollView> 
-               </ScrollableTabView>
 </View>
-
-<View style={styles.SWcontainer123}>
-<View style={styles.VWcontainer422}>
+<View style={styles.SWcontainer123}> 
+ <View style={styles.VWcontainer422}> 
   
       <Text style={styles.TextStyle8}> 12.12-12.19 (Term of validity)</Text>
       <Text style={styles.TextStyle9}> Discounts are available </Text>
       <Text style={styles.TextStyle9}> this week </Text>
       
-  </View>
+   </View> 
  
       <TouchableOpacity  onPress={() => this.props.navigation.navigate('screen1')}
         style={styles.BtnContainer}>
                                 <Text style={styles.BtnTxt}>Package</Text>
                             </TouchableOpacity>
 </View>
+</View>
+                </ScrollView> 
+               </ScrollableTabView>
+</View>
+
+
 
                                </ScrollView>
          </View>      
